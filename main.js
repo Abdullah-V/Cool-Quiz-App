@@ -152,6 +152,29 @@ data6 = {
     },
 }
 
+data7 = {
+    "time":30,
+    "text":"Hansi Proqramlasdirma dilinin OOP desteyi yoxdur?",
+    "answers":{
+        0:{
+            "text":"Java",
+            "truefalse":false
+        },
+        1:{
+            "text":"Javascript",
+            "truefalse":false
+        },
+        2:{
+            "text":"C",
+            "truefalse":true
+        },
+        3:{
+            "text":"Go(lang)",
+            "truefalse":false
+        },
+    },
+}
+
 
 
 
@@ -296,9 +319,11 @@ gameobjlist.push(gameobj3)
 var gameobj4 = new game(data4)
 var gameobj5 = new game(data5)
 var gameobj6 = new game(data6)
+var gameobj7 = new game(data7)
 gameobjlist.push(gameobj4)
 gameobjlist.push(gameobj5)
 gameobjlist.push(gameobj6)
+gameobjlist.push(gameobj7)
 
 
 
